@@ -1,11 +1,10 @@
-from dtale.cli.clickutils import get_loader_options
+import os
+import pandas as pd
 
-'''
-  IMPORTANT!!! This global variable is required for building any customized CLI loader.
-  When find loaders on startup it will search for any modules containing the global variable LOADER_KEY.
-'''
-LOADER_KEY = 'testdata'
-LOADER_PROPS = [dict(name='rows'), dict(name='columns')]
+from flask import redirect, render_template
+
+from dtale.app import build_app
+from dtale.views import startup
 
 
 def test_data(rows, columns, no_of_dates=364):
@@ -15,11 +14,8 @@ def test_data(rows, columns, no_of_dates=364):
     from past.utils import old_div
     from pandas.tseries.offsets import Day
     from dtale.utils import dict_merge
-    from dtale.views import startup
-    import dtale.global_state as global_state
     import string
     import datetime
-
     now = pd.Timestamp(pd.Timestamp('now').date())
     dates = pd.date_range(now - Day(no_of_dates), now)
     num_of_securities = max(old_div(rows, len(dates)), 1)  # always have at least one security
@@ -51,37 +47,24 @@ def test_data(rows, columns, no_of_dates=364):
     data.loc[:, 'ts_val'] = pp(pd.Timestamp('19600101'), pd.Timestamp('20500101'), len(data))
     data.loc[:, 'timedelta_val'] = [datetime.timedelta(seconds=random.randint(1, 100000000)) for _ in range(len(data))]
 
-    startup(data=data, ignore_duplicate=True, data_id='1')
-    # formatting = {'Col0': {'fmt': "0.0000"}}
-    # global_state.set_settings('1', {'backgroundMode': "lowVariance", 'columnFormats': formatting})
-    global_state.set_settings('1', {
-        "backgroundMode": "rangeHighlight",
-        "rangeHighlight": {
-            "all": {
-              "active": True,
-              "equals": {"active": False},
-              "greaterThan": {"active": True, "color": {"a": 1, "b": 157, "g": 245, "r": 255}, "value": 0.5},
-              "lessThan": {"active": False},
-            }
-        }
-    })
-
-    # startup(data=data, ignore_duplicate=True, data_id='1')
-    # column_edit_options = {'category_val2': ['0', '1', '2']}
-    # global_state.set_settings('1', {'column_edit_options': column_edit_options})
-
-    # startup(data=data, ignore_duplicate=True, data_id='1', auto_hide_empty_columns=True)
-    # startup(data=data, ignore_duplicate=True, data_id='1', highlight_filter=True)
-
     return data
 
 
-# IMPORTANT!!! This function is required for building any customized CLI loader.
-def find_loader(kwargs):
-    test_data_opts = get_loader_options(LOADER_KEY, LOADER_PROPS, kwargs)
-    if len([f for f in test_data_opts.values() if f]):
-        def _testdata_loader():
-            return test_data(int(test_data_opts.get('rows', 1000500)), int(test_data_opts.get('columns', 96)))
+if __name__ == '__main__':
+    additional_templates = os.path.join(os.path.dirname(__file__), "templates")
+    app = build_app(reaper_on=False, additional_templates=additional_templates)
+    instance = startup("", data_id="1", data=test_data(500, 10), ignore_duplicate=True)
+    instance = startup("", data_id="2",  data=test_data(1000, 10), ignore_duplicate=True)
 
-        return _testdata_loader
-    return None
+    @app.route("/create-df")
+    def create_df():
+        df = pd.DataFrame(dict(a=[1, 2, 3], b=[4, 5, 6]))
+        instance = startup("", data=df, ignore_duplicate=True)
+
+        return redirect("/dtale/main/{}".format(instance._data_id), code=302)
+
+    @app.route("/")
+    def hello_world():
+        return render_template("main.html")
+
+    app.run(host="0.0.0.0", port=40000)

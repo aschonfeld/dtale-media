@@ -1,0 +1,345 @@
+﻿route_id,direction_id,first_stop,last_stop,stop_order,stop_id,stop_name,ObjectId
+Blue,0,Wonderland,Bowdoin,1,place-wondl,Wonderland,1
+Blue,0,Wonderland,Bowdoin,2,place-rbmnl,Revere Beach,2
+Blue,0,Wonderland,Bowdoin,3,place-bmmnl,Beachmont,3
+Blue,0,Wonderland,Bowdoin,4,place-sdmnl,Suffolk Downs,4
+Blue,0,Wonderland,Bowdoin,5,place-orhte,Orient Heights,5
+Blue,0,Wonderland,Bowdoin,6,place-wimnl,Wood Island,6
+Blue,0,Wonderland,Bowdoin,7,place-aport,Airport,7
+Blue,0,Wonderland,Bowdoin,8,place-mvbcl,Maverick,8
+Blue,0,Wonderland,Bowdoin,9,place-aqucl,Aquarium,9
+Blue,0,Wonderland,Bowdoin,10,place-state,State Street,10
+Blue,0,Wonderland,Bowdoin,11,place-gover,Government Center,11
+Blue,0,Wonderland,Bowdoin,12,place-bomnl,Bowdoin,12
+Blue,1,Bowdoin,Wonderland,1,place-bomnl,Bowdoin,13
+Blue,1,Bowdoin,Wonderland,2,place-gover,Government Center,14
+Blue,1,Bowdoin,Wonderland,3,place-state,State Street,15
+Blue,1,Bowdoin,Wonderland,4,place-aqucl,Aquarium,16
+Blue,1,Bowdoin,Wonderland,5,place-mvbcl,Maverick,17
+Blue,1,Bowdoin,Wonderland,6,place-aport,Airport,18
+Blue,1,Bowdoin,Wonderland,7,place-wimnl,Wood Island,19
+Blue,1,Bowdoin,Wonderland,8,place-orhte,Orient Heights,20
+Blue,1,Bowdoin,Wonderland,9,place-sdmnl,Suffolk Downs,21
+Blue,1,Bowdoin,Wonderland,10,place-bmmnl,Beachmont,22
+Blue,1,Bowdoin,Wonderland,11,place-rbmnl,Revere Beach,23
+Blue,1,Bowdoin,Wonderland,12,place-wondl,Wonderland,24
+Green,0,Lechmere,Boston College,1,place-lech,Lechmere,25
+Green,0,Lechmere,Boston College,2,place-spmnl,Science Park,26
+Green,0,Lechmere,Boston College,3,place-north,North Station,27
+Green,0,Lechmere,Boston College,4,place-haecl,Haymarket,28
+Green,0,Lechmere,Boston College,5,place-gover,Government Center,29
+Green,0,Lechmere,Boston College,6,place-pktrm,Park Street,30
+Green,0,Lechmere,Boston College,7,place-boyls,Boylston,31
+Green,0,Lechmere,Boston College,8,place-armnl,Arlington,32
+Green,0,Lechmere,Boston College,9,place-coecl,Copley,33
+Green,0,Lechmere,Boston College,10,place-hymnl,Hynes Convention Center,34
+Green,0,Lechmere,Boston College,11,place-kencl,Kenmore,35
+Green,0,Lechmere,Boston College,12,place-bland,Blandford Street,36
+Green,0,Lechmere,Boston College,13,place-buest,Boston Univ. East,37
+Green,0,Lechmere,Boston College,14,place-bucen,Boston Univ. Central,38
+Green,0,Lechmere,Boston College,15,place-buwst,Boston Univ. West,39
+Green,0,Lechmere,Boston College,16,place-stplb,Saint Paul Street,40
+Green,0,Lechmere,Boston College,17,place-plsgr,Pleasant Street,41
+Green,0,Lechmere,Boston College,18,place-babck,Babcock Street,42
+Green,0,Lechmere,Boston College,19,place-brico,Packards Corner,43
+Green,0,Lechmere,Boston College,20,place-harvd,Harvard Ave.,44
+Green,0,Lechmere,Boston College,21,place-grigg,Griggs Street,45
+Green,0,Lechmere,Boston College,22,place-alsgr,Allston Street,46
+Green,0,Lechmere,Boston College,23,place-wrnst,Warren Street,47
+Green,0,Lechmere,Boston College,24,place-wascm,Washington Street,48
+Green,0,Lechmere,Boston College,25,place-sthld,Sutherland Road,49
+Green,0,Lechmere,Boston College,26,place-chswk,Chiswick Road,50
+Green,0,Lechmere,Boston College,27,place-chill,Chestnut Hill Ave.,51
+Green,0,Lechmere,Boston College,28,place-sougr,South Street,52
+Green,0,Lechmere,Boston College,29,place-lake,Boston College,53
+Green,0,Lechmere,Cleveland Circle,1,place-lech,Lechmere,54
+Green,0,Lechmere,Cleveland Circle,2,place-spmnl,Science Park,55
+Green,0,Lechmere,Cleveland Circle,3,place-north,North Station,56
+Green,0,Lechmere,Cleveland Circle,4,place-haecl,Haymarket,57
+Red,0,Alewife,Ashmont,17,place-asmnl,Ashmont,58
+Green,0,Lechmere,Cleveland Circle,5,place-gover,Government Center,59
+Red,0,Alewife,Braintree,1,place-alfcl,Alewife,60
+Red,0,Alewife,Braintree,2,place-davis,Davis,61
+Red,0,Alewife,Braintree,3,place-portr,Porter,62
+Red,0,Alewife,Braintree,4,place-harsq,Harvard,63
+Red,0,Alewife,Braintree,5,place-cntsq,Central,64
+Red,0,Alewife,Braintree,6,place-knncl,Kendall/MIT,65
+Red,0,Alewife,Braintree,7,place-chmnl,Charles/MGH,66
+Red,0,Alewife,Braintree,8,place-pktrm,Park Street,67
+Red,0,Alewife,Braintree,9,place-dwnxg,Downtown Crossing,68
+Red,0,Alewife,Braintree,10,place-sstat,South Station,69
+Red,0,Alewife,Braintree,11,place-brdwy,Broadway,70
+Red,0,Alewife,Braintree,12,place-andrw,Andrew,71
+Red,0,Alewife,Braintree,13,place-jfk,JFK/Umass,72
+Red,0,Alewife,Braintree,14,place-nqncy,North Quincy,73
+Red,0,Alewife,Braintree,15,place-wlsta,Wollaston,74
+Red,0,Alewife,Braintree,16,place-qnctr,Quincy Center,75
+Red,0,Alewife,Braintree,17,place-qamnl,Quincy Adams,76
+Red,0,Alewife,Braintree,18,place-brntn,Braintree,77
+Red,1,Ashmont,Alewife,1,place-asmnl,Ashmont,78
+Red,1,Ashmont,Alewife,2,place-smmnl,Shawmut,79
+Red,1,Ashmont,Alewife,3,place-fldcr,Fields Corner,80
+Red,1,Ashmont,Alewife,4,place-shmnl,Savin Hill,81
+Red,1,Ashmont,Alewife,5,place-jfk,JFK/Umass,82
+Red,1,Ashmont,Alewife,6,place-andrw,Andrew,83
+Red,1,Ashmont,Alewife,7,place-brdwy,Broadway,84
+Red,1,Ashmont,Alewife,8,place-sstat,South Station,85
+Red,1,Ashmont,Alewife,9,place-dwnxg,Downtown Crossing,86
+Red,1,Ashmont,Alewife,10,place-pktrm,Park Street,87
+Red,1,Ashmont,Alewife,11,place-chmnl,Charles/MGH,88
+Red,1,Ashmont,Alewife,12,place-knncl,Kendall/MIT,89
+Red,1,Ashmont,Alewife,13,place-cntsq,Central,90
+Red,1,Ashmont,Alewife,14,place-harsq,Harvard,91
+Red,1,Ashmont,Alewife,15,place-portr,Porter,92
+Red,1,Ashmont,Alewife,16,place-davis,Davis,93
+Red,1,Ashmont,Alewife,17,place-alfcl,Alewife,94
+Red,1,Braintree,Alewife,1,place-brntn,Braintree,95
+Red,1,Braintree,Alewife,2,place-qamnl,Quincy Adams,96
+Red,1,Braintree,Alewife,3,place-qnctr,Quincy Center,97
+Red,1,Braintree,Alewife,4,place-wlsta,Wollaston,98
+Red,1,Braintree,Alewife,5,place-nqncy,North Quincy,99
+Red,1,Braintree,Alewife,6,place-jfk,JFK/Umass,100
+Red,1,Braintree,Alewife,7,place-andrw,Andrew,101
+Red,1,Braintree,Alewife,8,place-brdwy,Broadway,102
+Red,1,Braintree,Alewife,9,place-sstat,South Station,103
+Red,1,Braintree,Alewife,10,place-dwnxg,Downtown Crossing,104
+Red,1,Braintree,Alewife,11,place-pktrm,Park Street,105
+Red,1,Braintree,Alewife,12,place-chmnl,Charles/MGH,106
+Red,1,Braintree,Alewife,13,place-knncl,Kendall/MIT,107
+Red,1,Braintree,Alewife,14,place-cntsq,Central,108
+Red,1,Braintree,Alewife,15,place-harsq,Harvard,109
+Red,1,Braintree,Alewife,16,place-portr,Porter,110
+Red,1,Braintree,Alewife,17,place-davis,Davis,111
+Red,1,Braintree,Alewife,18,place-alfcl,Alewife,112
+Green,1,Heath Street,Lechmere,1,place-hsmnl,Heath Street,113
+Green,1,Heath Street,Lechmere,2,place-bckhl,Back of the Hill,114
+Green,1,Heath Street,Lechmere,3,place-rvrwy,Riverway,115
+Green,1,Heath Street,Lechmere,4,place-mispk,Mission Park,116
+Green,1,Heath Street,Lechmere,5,place-fenwd,Fenwood Road,117
+Green,1,Heath Street,Lechmere,6,place-brmnl,Brigham Circle,118
+Green,1,Heath Street,Lechmere,7,place-lngmd,Longwood Medical Area,119
+Green,1,Heath Street,Lechmere,8,place-mfa,Museum of Fine Arts,120
+Green,0,Lechmere,Cleveland Circle,6,place-pktrm,Park Street,121
+Green,1,Heath Street,Lechmere,9,place-nuniv,Northeastern University,122
+Green,1,Heath Street,Lechmere,10,place-symcl,Symphony,123
+Green,1,Heath Street,Lechmere,11,place-prmnl,Prudential,124
+Green,1,Heath Street,Lechmere,12,place-coecl,Copley,125
+Green,1,Heath Street,Lechmere,13,place-armnl,Arlington,126
+Green,1,Heath Street,Lechmere,14,place-boyls,Boylston,127
+Green,1,Heath Street,Lechmere,15,place-pktrm,Park Street,128
+Green,1,Heath Street,Lechmere,16,place-gover,Government Center,129
+Green,1,Heath Street,Lechmere,17,place-haecl,Haymarket,130
+Green,1,Heath Street,Lechmere,18,place-north,North Station,131
+Green,1,Heath Street,Lechmere,19,place-spmnl,Science Park,132
+Green,1,Heath Street,Lechmere,20,place-lech,Lechmere,133
+Green,1,Riverside,Lechmere,1,place-river,Riverside,134
+Green,1,Riverside,Lechmere,2,place-woodl,Woodland,135
+Green,1,Riverside,Lechmere,3,place-waban,Waban,136
+Green,1,Riverside,Lechmere,4,place-eliot,Eliot,137
+Green,1,Riverside,Lechmere,5,place-newtn,Newton Highlands,138
+Green,1,Riverside,Lechmere,6,place-newto,Newton Centre,139
+Green,1,Riverside,Lechmere,7,place-chhil,Chestnut Hill,140
+Green,1,Riverside,Lechmere,8,place-rsmnl,Reservoir,141
+Green,1,Riverside,Lechmere,9,place-bcnfd,Beaconsfield,142
+Green,1,Riverside,Lechmere,10,place-brkhl,Brookline Hills,143
+Green,1,Riverside,Lechmere,11,place-bvmnl,Brookline Village,144
+Green,1,Riverside,Lechmere,12,place-longw,Longwood,145
+Green,1,Riverside,Lechmere,13,place-fenwy,Fenway,146
+Green,1,Riverside,Lechmere,14,place-kencl,Kenmore,147
+Mattapan,1,Mattapan,Ashmont,7,place-cedgr,Cedar Grove,148
+Green,1,Riverside,Lechmere,15,place-hymnl,Hynes Convention Center,149
+Green,1,Riverside,Lechmere,16,place-coecl,Copley,150
+Green,1,Riverside,Lechmere,17,place-armnl,Arlington,151
+Green,1,Riverside,Lechmere,18,place-boyls,Boylston,152
+Green,1,Riverside,Lechmere,19,place-pktrm,Park Street,153
+Green,1,Riverside,Lechmere,20,place-gover,Government Center,154
+Green,1,Riverside,Lechmere,21,place-haecl,Haymarket,155
+Green,1,Riverside,Lechmere,22,place-north,North Station,156
+Green,1,Riverside,Lechmere,23,place-spmnl,Science Park,157
+Green,1,Riverside,Lechmere,24,place-lech,Lechmere,158
+Mattapan,0,Ashmont,Mattapan,1,place-asmnl,Ashmont,159
+Mattapan,0,Ashmont,Mattapan,2,place-cedgr,Cedar Grove,160
+Mattapan,0,Ashmont,Mattapan,3,place-butlr,Butler,161
+Mattapan,0,Ashmont,Mattapan,4,place-miltt,Milton,162
+Mattapan,0,Ashmont,Mattapan,5,place-cenav,Central Ave.,163
+Mattapan,0,Ashmont,Mattapan,6,place-valrd,Valley Road,164
+Mattapan,0,Ashmont,Mattapan,7,place-capst,Capen Street,165
+Mattapan,0,Ashmont,Mattapan,8,place-matt,Mattapan,166
+Mattapan,1,Mattapan,Ashmont,1,place-matt,Mattapan,167
+Mattapan,1,Mattapan,Ashmont,2,place-capst,Capen Street,168
+Mattapan,1,Mattapan,Ashmont,3,place-valrd,Valley Road,169
+Mattapan,1,Mattapan,Ashmont,4,place-cenav,Central Ave.,170
+Mattapan,1,Mattapan,Ashmont,5,place-miltt,Milton,171
+Mattapan,1,Mattapan,Ashmont,6,place-butlr,Butler,172
+Green,0,Lechmere,Cleveland Circle,7,place-boyls,Boylston,173
+Mattapan,1,Mattapan,Ashmont,8,place-asmnl,Ashmont,174
+Green,0,Lechmere,Cleveland Circle,8,place-armnl,Arlington,175
+Orange,0,Oak Grove,Forest Hills,1,place-ogmnl,Oak Grove,176
+Green,0,Lechmere,Cleveland Circle,9,place-coecl,Copley,177
+Orange,0,Oak Grove,Forest Hills,2,place-mlmnl,Malden Center,178
+Green,0,Lechmere,Cleveland Circle,10,place-hymnl,Hynes Convention Center,179
+Orange,0,Oak Grove,Forest Hills,3,place-welln,Wellington,180
+Green,0,Lechmere,Cleveland Circle,11,place-kencl,Kenmore,181
+Green,0,Lechmere,Cleveland Circle,12,place-smary,Saint Mary Street,182
+Green,0,Lechmere,Cleveland Circle,13,place-hwsst,Hawes Street,183
+Green,0,Lechmere,Cleveland Circle,14,place-kntst,Kent Street,184
+Green,0,Lechmere,Cleveland Circle,15,place-stpul,Saint Paul Street,185
+Green,0,Lechmere,Cleveland Circle,16,place-cool,Coolidge Corner,186
+Green,0,Lechmere,Cleveland Circle,17,place-sumav,Summit Ave.,187
+Green,0,Lechmere,Cleveland Circle,18,place-bndhl,Brandon Hall,188
+Green,0,Lechmere,Cleveland Circle,19,place-fbkst,Fairbanks Street,189
+Green,0,Lechmere,Cleveland Circle,20,place-bcnwa,Washington Square,190
+Green,0,Lechmere,Cleveland Circle,21,place-tapst,Tappan Street,191
+Green,0,Lechmere,Cleveland Circle,22,place-denrd,Dean Road,192
+Green,0,Lechmere,Cleveland Circle,23,place-engav,Englewood Ave.,193
+Green,0,Lechmere,Cleveland Circle,24,place-clmnl,Cleveland Circle,194
+Green,0,Lechmere,Heath Street,1,place-lech,Lechmere,195
+Green,0,Lechmere,Heath Street,2,place-spmnl,Science Park,196
+Green,0,Lechmere,Heath Street,3,place-north,North Station,197
+Green,0,Lechmere,Heath Street,4,place-haecl,Haymarket,198
+Green,0,Lechmere,Heath Street,5,place-gover,Government Center,199
+Green,0,Lechmere,Heath Street,6,place-pktrm,Park Street,200
+Green,0,Lechmere,Heath Street,7,place-boyls,Boylston,201
+Green,0,Lechmere,Heath Street,8,place-armnl,Arlington,202
+Green,0,Lechmere,Heath Street,9,place-coecl,Copley,203
+Green,0,Lechmere,Heath Street,10,place-prmnl,Prudential,204
+Green,0,Lechmere,Heath Street,11,place-symcl,Symphony,205
+Green,0,Lechmere,Heath Street,12,place-nuniv,Northeastern University,206
+Green,0,Lechmere,Heath Street,13,place-mfa,Museum of Fine Arts,207
+Green,0,Lechmere,Heath Street,14,place-lngmd,Longwood Medical Area,208
+Green,0,Lechmere,Heath Street,15,place-brmnl,Brigham Circle,209
+Green,0,Lechmere,Heath Street,16,place-fenwd,Fenwood Road,210
+Green,0,Lechmere,Heath Street,17,place-mispk,Mission Park,211
+Green,0,Lechmere,Heath Street,18,place-rvrwy,Riverway,212
+Green,0,Lechmere,Heath Street,19,place-bckhl,Back of the Hill,213
+Green,0,Lechmere,Heath Street,20,place-hsmnl,Heath Street,214
+Green,0,Lechmere,Riverside,1,place-lech,Lechmere,215
+Green,0,Lechmere,Riverside,2,place-spmnl,Science Park,216
+Green,0,Lechmere,Riverside,3,place-north,North Station,217
+Green,0,Lechmere,Riverside,4,place-haecl,Haymarket,218
+Green,0,Lechmere,Riverside,5,place-gover,Government Center,219
+Green,0,Lechmere,Riverside,6,place-pktrm,Park Street,220
+Green,0,Lechmere,Riverside,7,place-boyls,Boylston,221
+Green,0,Lechmere,Riverside,8,place-armnl,Arlington,222
+Green,0,Lechmere,Riverside,9,place-coecl,Copley,223
+Green,0,Lechmere,Riverside,10,place-hymnl,Hynes Convention Center,224
+Green,0,Lechmere,Riverside,11,place-kencl,Kenmore,225
+Green,0,Lechmere,Riverside,12,place-fenwy,Fenway,226
+Green,0,Lechmere,Riverside,13,place-longw,Longwood,227
+Green,0,Lechmere,Riverside,14,place-bvmnl,Brookline Village,228
+Green,0,Lechmere,Riverside,15,place-brkhl,Brookline Hills,229
+Green,0,Lechmere,Riverside,16,place-bcnfd,Beaconsfield,230
+Green,0,Lechmere,Riverside,17,place-rsmnl,Reservoir,231
+Green,0,Lechmere,Riverside,18,place-chhil,Chestnut Hill,232
+Green,0,Lechmere,Riverside,19,place-newto,Newton Centre,233
+Orange,0,Oak Grove,Forest Hills,4,place-astao,Assembly,234
+Orange,0,Oak Grove,Forest Hills,5,place-sull,Sullivan Square,235
+Orange,0,Oak Grove,Forest Hills,6,place-ccmnl,Community College,236
+Orange,0,Oak Grove,Forest Hills,7,place-north,North Station,237
+Orange,0,Oak Grove,Forest Hills,8,place-haecl,Haymarket,238
+Orange,0,Oak Grove,Forest Hills,9,place-state,State Street,239
+Orange,0,Oak Grove,Forest Hills,10,place-dwnxg,Downtown Crossing,240
+Orange,0,Oak Grove,Forest Hills,11,place-chncl,Chinatown,241
+Orange,0,Oak Grove,Forest Hills,12,place-tumnl,Tufts Medical Center,242
+Orange,0,Oak Grove,Forest Hills,13,place-bbsta,Back Bay,243
+Orange,0,Oak Grove,Forest Hills,14,place-masta,Massachusetts Ave.,244
+Orange,0,Oak Grove,Forest Hills,15,place-rugg,Ruggles,245
+Orange,0,Oak Grove,Forest Hills,16,place-rcmnl,Roxbury Crossing,246
+Orange,0,Oak Grove,Forest Hills,17,place-jaksn,Jackson Square,247
+Orange,0,Oak Grove,Forest Hills,18,place-sbmnl,Stony Brook,248
+Orange,0,Oak Grove,Forest Hills,19,place-grnst,Green Street,249
+Orange,0,Oak Grove,Forest Hills,20,place-forhl,Forest Hills,250
+Orange,1,Forest Hills,Oak Grove,1,place-forhl,Forest Hills,251
+Orange,1,Forest Hills,Oak Grove,2,place-grnst,Green Street,252
+Orange,1,Forest Hills,Oak Grove,3,place-sbmnl,Stony Brook,253
+Orange,1,Forest Hills,Oak Grove,4,place-jaksn,Jackson Square,254
+Orange,1,Forest Hills,Oak Grove,5,place-rcmnl,Roxbury Crossing,255
+Orange,1,Forest Hills,Oak Grove,6,place-rugg,Ruggles,256
+Orange,1,Forest Hills,Oak Grove,7,place-masta,Massachusetts Ave.,257
+Orange,1,Forest Hills,Oak Grove,8,place-bbsta,Back Bay,258
+Orange,1,Forest Hills,Oak Grove,9,place-tumnl,Tufts Medical Center,259
+Orange,1,Forest Hills,Oak Grove,10,place-chncl,Chinatown,260
+Orange,1,Forest Hills,Oak Grove,11,place-dwnxg,Downtown Crossing,261
+Orange,1,Forest Hills,Oak Grove,12,place-state,State Street,262
+Orange,1,Forest Hills,Oak Grove,13,place-haecl,Haymarket,263
+Orange,1,Forest Hills,Oak Grove,14,place-north,North Station,264
+Orange,1,Forest Hills,Oak Grove,15,place-ccmnl,Community College,265
+Orange,1,Forest Hills,Oak Grove,16,place-sull,Sullivan Square,266
+Orange,1,Forest Hills,Oak Grove,17,place-astao,Assembly,267
+Orange,1,Forest Hills,Oak Grove,18,place-welln,Wellington,268
+Orange,1,Forest Hills,Oak Grove,19,place-mlmnl,Malden Center,269
+Orange,1,Forest Hills,Oak Grove,20,place-ogmnl,Oak Grove,270
+Red,0,Alewife,Ashmont,1,place-alfcl,Alewife,271
+Red,0,Alewife,Ashmont,2,place-davis,Davis,272
+Red,0,Alewife,Ashmont,3,place-portr,Porter,273
+Red,0,Alewife,Ashmont,4,place-harsq,Harvard,274
+Red,0,Alewife,Ashmont,5,place-cntsq,Central,275
+Red,0,Alewife,Ashmont,6,place-knncl,Kendall/MIT,276
+Red,0,Alewife,Ashmont,7,place-chmnl,Charles/MGH,277
+Red,0,Alewife,Ashmont,8,place-pktrm,Park Street,278
+Red,0,Alewife,Ashmont,9,place-dwnxg,Downtown Crossing,279
+Red,0,Alewife,Ashmont,10,place-sstat,South Station,280
+Red,0,Alewife,Ashmont,11,place-brdwy,Broadway,281
+Red,0,Alewife,Ashmont,12,place-andrw,Andrew,282
+Red,0,Alewife,Ashmont,13,place-jfk,JFK/Umass,283
+Red,0,Alewife,Ashmont,14,place-shmnl,Savin Hill,284
+Red,0,Alewife,Ashmont,15,place-fldcr,Fields Corner,285
+Red,0,Alewife,Ashmont,16,place-smmnl,Shawmut,286
+Green,0,Lechmere,Riverside,20,place-newtn,Newton Highlands,287
+Green,0,Lechmere,Riverside,21,place-eliot,Eliot,288
+Green,0,Lechmere,Riverside,22,place-waban,Waban,289
+Green,0,Lechmere,Riverside,23,place-woodl,Woodland,290
+Green,0,Lechmere,Riverside,24,place-river,Riverside,291
+Green,1,Boston College,Lechmere,1,place-lake,Boston College,292
+Green,1,Boston College,Lechmere,2,place-sougr,South Street,293
+Green,1,Boston College,Lechmere,3,place-chill,Chestnut Hill Ave.,294
+Green,1,Boston College,Lechmere,4,place-chswk,Chiswick Road,295
+Green,1,Boston College,Lechmere,5,place-sthld,Sutherland Road,296
+Green,1,Boston College,Lechmere,6,place-wascm,Washington Street,297
+Green,1,Boston College,Lechmere,7,place-wrnst,Warren Street,298
+Green,1,Boston College,Lechmere,8,place-alsgr,Allston Street,299
+Green,1,Boston College,Lechmere,9,place-grigg,Griggs Street,300
+Green,1,Boston College,Lechmere,10,place-harvd,Harvard Ave.,301
+Green,1,Boston College,Lechmere,11,place-brico,Packards Corner,302
+Green,1,Boston College,Lechmere,12,place-babck,Babcock Street,303
+Green,1,Boston College,Lechmere,13,place-plsgr,Pleasant Street,304
+Green,1,Boston College,Lechmere,14,place-stplb,Saint Paul Street,305
+Green,1,Boston College,Lechmere,15,place-buwst,Boston Univ. West,306
+Green,1,Boston College,Lechmere,16,place-bucen,Boston Univ. Central,307
+Green,1,Boston College,Lechmere,17,place-buest,Boston Univ. East,308
+Green,1,Boston College,Lechmere,18,place-bland,Blandford Street,309
+Green,1,Boston College,Lechmere,19,place-kencl,Kenmore,310
+Green,1,Boston College,Lechmere,20,place-hymnl,Hynes Convention Center,311
+Green,1,Boston College,Lechmere,21,place-coecl,Copley,312
+Green,1,Boston College,Lechmere,22,place-armnl,Arlington,313
+Green,1,Boston College,Lechmere,23,place-boyls,Boylston,314
+Green,1,Boston College,Lechmere,24,place-pktrm,Park Street,315
+Green,1,Boston College,Lechmere,25,place-gover,Government Center,316
+Green,1,Boston College,Lechmere,26,place-haecl,Haymarket,317
+Green,1,Boston College,Lechmere,27,place-north,North Station,318
+Green,1,Boston College,Lechmere,28,place-spmnl,Science Park,319
+Green,1,Boston College,Lechmere,29,place-lech,Lechmere,320
+Green,1,Cleveland Circle,Lechmere,1,place-clmnl,Cleveland Circle,321
+Green,1,Cleveland Circle,Lechmere,2,place-engav,Englewood Ave.,322
+Green,1,Cleveland Circle,Lechmere,3,place-denrd,Dean Road,323
+Green,1,Cleveland Circle,Lechmere,4,place-tapst,Tappan Street,324
+Green,1,Cleveland Circle,Lechmere,5,place-bcnwa,Washington Square,325
+Green,1,Cleveland Circle,Lechmere,6,place-fbkst,Fairbanks Street,326
+Green,1,Cleveland Circle,Lechmere,7,place-bndhl,Brandon Hall,327
+Green,1,Cleveland Circle,Lechmere,8,place-sumav,Summit Ave.,328
+Green,1,Cleveland Circle,Lechmere,9,place-cool,Coolidge Corner,329
+Green,1,Cleveland Circle,Lechmere,10,place-stpul,Saint Paul Street,330
+Green,1,Cleveland Circle,Lechmere,11,place-kntst,Kent Street,331
+Green,1,Cleveland Circle,Lechmere,12,place-hwsst,Hawes Street,332
+Green,1,Cleveland Circle,Lechmere,13,place-smary,Saint Mary Street,333
+Green,1,Cleveland Circle,Lechmere,14,place-kencl,Kenmore,334
+Green,1,Cleveland Circle,Lechmere,15,place-hymnl,Hynes Convention Center,335
+Green,1,Cleveland Circle,Lechmere,16,place-coecl,Copley,336
+Green,1,Cleveland Circle,Lechmere,17,place-armnl,Arlington,337
+Green,1,Cleveland Circle,Lechmere,18,place-boyls,Boylston,338
+Green,1,Cleveland Circle,Lechmere,19,place-pktrm,Park Street,339
+Green,1,Cleveland Circle,Lechmere,20,place-gover,Government Center,340
+Green,1,Cleveland Circle,Lechmere,21,place-haecl,Haymarket,341
+Green,1,Cleveland Circle,Lechmere,22,place-north,North Station,342
+Green,1,Cleveland Circle,Lechmere,23,place-spmnl,Science Park,343
+Green,1,Cleveland Circle,Lechmere,24,place-lech,Lechmere,344
